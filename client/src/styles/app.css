@@ -1,0 +1,43 @@
+body {
+  --bs-body-font-family: var(--bs-font-monospace);
+  --bs-body-line-height: 1.4;
+  --bs-body-bg: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIR_Ej0nWn-Fh5gIU8FHV240T9Jn_ujSk4MA&usqp=CAU'); 
+  background-size: 20px; 
+  background-repeat: no-repeat; 
+}
+
+.table {
+  --bs-table-color: var(--bs-gray-600);
+  --bs-table-bg: var(--bs-gray-100);
+  --bs-table-border-color: transparent;
+}
+
+#pillNav2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #007bff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.nav-item {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-link {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  color: #fff;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  background-color: #fff;
+  color: #007bff;
+  cursor: pointer;
+}

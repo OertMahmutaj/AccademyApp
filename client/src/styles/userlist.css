@@ -1,0 +1,64 @@
+.user-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .user-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-item p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .user-item img {
+    display: block;
+    margin-top: 10px;
+    max-width: 100%;
+  }
+  
+  .user-item .user-role {
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .user-item .view-profile-link,
+  .user-item .delete-button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .user-item .view-profile-link {
+    background-color: #007bff;
+  }
+  
+  .user-item .delete-button {
+    background-color: #dc3545;
+    margin-left: 10px;
+  }
+  
+  .user-item .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .user-item .view-profile-link:hover {
+    background-color: #0056b3;
+  }
+  
+
+  

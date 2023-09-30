@@ -1,0 +1,62 @@
+.edit-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .edit-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .edit-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .edit-checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .edit-checkbox {
+    width: auto;
+    margin-right: 5px;
+  }
+  
+  .edit-errors {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .edit-submit-button {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-submit-button:hover {
+    background-color: #0056b3;
+  }
+  

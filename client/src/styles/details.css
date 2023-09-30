@@ -1,0 +1,35 @@
+.details-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .details-label {
+    font-weight: bold;
+  }
+  
+  .details-info {
+    margin-bottom: 10px;
+  }
+  
+  .user-image {
+    margin: 10px 0;
+  }
+  
+  .details-checkbox {
+    margin: 5px 0;
+  }
+  
+  .edit-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
